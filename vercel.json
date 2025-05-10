@@ -1,14 +1,13 @@
 {
-    "version": 2,
-    "crons": [
-      {
-        "path": "/api/notify?type=alert",
-        "schedule": "*/1 * * * *"
-      },
-      {
-        "path": "/api/notify?type=weekly",
-        "schedule": "0 8 * * 1"
-      }
-    ]
-  }
-  
+  "version": 2,
+  "crons": [
+    {
+      "path": "/api/notify?type=alert",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/notify?type=weekly",
+      "schedule": "0 8 * * 1"
+    }
+  ]
+}
